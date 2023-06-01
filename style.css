@@ -1,0 +1,123 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	box-style: border-box;
+	list-style: none;
+}
+
+body{
+	font-family: Times new Romans;
+	font-family: 'Roboto', sans-serif;
+	align-items: center;
+	justify-content: center;
+	background-color:rgb(0, 0, 0);
+
+}
+/*---------------------desgin navbar-------------------*/
+.navbar{
+	background: rgb(0, 0, 0);
+	height: 90px;
+	width: 100%;
+}
+
+nav ul{
+	float:right;
+	margin-right: 10px;
+    
+}
+nav ul li{
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 10px;
+	padding-left: 10px;
+		transition: 1s;
+}
+nav ul li a{
+	color: hwb(0 100% 0%);
+	font-size: 17px;
+	padding: 3px 33px;
+	border-radius: 3px;
+
+}
+.active, a:hover{
+	background: #ffffff;
+	transition: .5s;
+	color: rgb(9, 7, 7);
+}
+nav ul li:hover{
+	transform: scale(1.3);
+	z-index: 2;
+	padding-left: 10px;
+}
+/*---------------------desgin logo-----------------*/
+.icon{
+	padding: 0 50px;
+} 
+
+/*-----------------create footer-----------------*/
+.container{
+	max-width: 1170px;
+	margin: auto;
+}
+footer{
+	background-color: #0d0738;
+	padding: 40px 0;
+}
+footer ul{
+	list-style: none;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+.footer-col{
+	width: 25%;
+	padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: rgb(206, 180, 180);
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+	background-color:black;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+/* CSS styling for the mailbox */
+.mailbox {
+	width: 300px;
+	padding: 20px;
+	background-color: #f0f0f0;
+	border: 1px solid #ccc;
+  }
+  
+  .message {
+	margin-bottom: 10px;
+	padding: 10px;
+	background-color: #fff;
+	border: 1px solid #ccc;
+  }
+  
+  .sender {
+	font-weight: bold;
+  }
+  
+  .subject {
+	font-style: italic;
+  }
+  
+  .body {
+	margin-top: 5px;
+  }
+  
+
